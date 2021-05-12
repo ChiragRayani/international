@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">mcLowicz International</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Seetings -->
+    <string name="fragment_settings_title">Nastavení</string>
+    <string name="lang_pl">polština</string>
+    <string name="lang_en">Angličtina</string>
+    <string name="lang_es">španělština</string>
+    <string name="lang_de">Němec</string>
+    <string name="lang_cz">čeština</string>
+
+    <string name="language_array_title">Jazyk</string>
+
+    <string-array name="language_array">
+        <item>@string/lang_pl</item>
+        <item>@string/lang_en</item>
+        <item>@string/lang_es</item>
+        <item>@string/lang_de</item>
+        <item>@string/lang_cz</item>
+    </string-array>
+
+    <string name="theme_day">Den</string>
+    <string name="theme_night">Noc</string>
+    <string name="theme_array_title">Tema</string>
+    <string-array name="theme_array">
+        <item>@string/theme_day</item>
+        <item>@string/theme_night</item>
+    </string-array>
+
+    <!-- Preference Titles -->
+    <string name="ui">UI</string>
+    <string name="theme_mode">Dark Mode</string>
+    <string name="theme_mode_def_value">MODE_NIGHT_FOLLOW_SYSTEM</string>
+
+    <!-- Dark Mode ListPreference -->
+    <string-array name="theme_mode_entries">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string-array name="theme_mode_values">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string name="content_szwejk">
+        - A to je to, co zabili Ferdinanda - řekl obsluha panu Szwejkovi, který poté, co před lety opustil svoji službu v armádě, když ho vojenská lékařská komise konečně považoval za idiota, živil se obchodováním se psy, ponurý , plnokrevní kříženci, jejichž rodokmeny koval.
+\n\n
+Kromě této okupace byl postižen revmatismem a jen si třel kolena opo-deldokem.
+\n\n
+- Který Ferdinand, paní Müllerowo? Zeptal se Švejk a stále masíroval kolena. - Znám dva Ferdinandy: jeden je služebníkem drahé Pruszy a omylem tam jednou vypil nějaké mazivo pro růst vlasů, a pak také znám Ferdinanda Kokoszku, co sbírá psí bouda. Oba nelze litovat.
+\n\n
+- Ale, pane, arcivévoda Ferdinand, ten z Konopiště, ten tlustý, zbožný.
+\n\n
+- Ježíši Mariu! Zvolal Švejk. - To je dobré! A kde se to stalo arcivévodovi?
+\n\n
+—Kapky v Sarajevu, pane, s revolverem, víte. Jel tam s arcivévodkyní v automobilu.
+\n\n
+- Podívej, má paní Müllerová, v autě. Šťáva, takový gentleman si to může dovolit a ani ho nenapadne, jak může taková jízda v automobilu skončit nešťastně. A také v Sarajevu je to Bosna, paní Müllerowo. To museli udělat Turci. Nemuseli brát tuto Bosnu a Hercegovinu. Ano, ano, paní Müllerová. Takže pan arcivévoda je již na Božím soudu. Byl také dlouho unavený?
+\n\n
+- Pan arcivévoda byl okamžitě mrtvý, pane. Sami víte, že u revolveru nejsou žádné pásky. Nedávno se v našem sousedství v Nuslachu hrálo s revolverem a zastřelil celou rodinu a dokonce i strážného, ​​který se šel podívat, kdo tam také střílel ve třetím patře.
+    \n\n
+    </string>
+
+</resources>

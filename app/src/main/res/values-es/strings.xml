@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">mcLowicz International</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Seetings -->
+    <string name="fragment_settings_title">Ajustes</string>
+    <string name="lang_pl">Polaco</string>
+    <string name="lang_en">Inglés</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_de">Alemán</string>
+    <string name="lang_cz">Checo</string>
+
+    <string name="language_array_title">Idioma</string>
+
+    <string-array name="language_array">
+        <item>@string/lang_pl</item>
+        <item>@string/lang_en</item>
+        <item>@string/lang_es</item>
+        <item>@string/lang_de</item>
+        <item>@string/lang_cz</item>
+    </string-array>
+
+    <string name="theme_day">Día</string>
+    <string name="theme_night">Noche</string>
+    <string name="theme_array_title">Tema</string>
+    <string-array name="theme_array">
+        <item>@string/theme_day</item>
+        <item>@string/theme_night</item>
+    </string-array>
+
+    <!-- Preference Titles -->
+    <string name="ui">UI</string>
+    <string name="theme_mode">Dark Mode</string>
+    <string name="theme_mode_def_value">MODE_NIGHT_FOLLOW_SYSTEM</string>
+
+    <!-- Dark Mode ListPreference -->
+    <string-array name="theme_mode_entries">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string-array name="theme_mode_values">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string name="content_szwejk">
+        - Y esto es lo que mataron a Ferdinand - dijo el asistente al señor Szwejk, quien, habiendo dejado su servicio en el ejército hace años, cuando finalmente fue considerado un idiota por la comisión médica militar, se ganaba la vida comerciando perros, lúgubre , mestizos no pura sangre cuyos pedigrí forjó.
+\n\n
+Además de esta ocupación, estaba afectado por el reumatismo y solo se frotaba las rodillas con opo-deldok.
+\n\n
+- ¿Qué Ferdinand, Sra. Müllerowo? Švejk preguntó, todavía masajeando sus rodillas. - Conozco a dos Ferdinands: uno es un sirviente en el caro Prusza y, por error, una vez bebió un poco de lubricante allí para el crecimiento del cabello, y luego también conozco a Ferdinand Kokoszka, lo que colecciona la caseta del perro. No hay que lamentar ambos.
+\n\n
+- Pero, señor, el archiduque Fernando, el de Konopiště, el gordo y piadoso.
+\n\n
+- ¡Jesús María! Švejk exclamó. - ¡Eso es bueno! ¿Y dónde le pasó al archipríncipe?
+\n\n
+—Gotas en Sarajevo, señor, con un revólver, ya sabe. Iba conduciendo allí con su Archiduquesa en un automóvil.
+\n\n
+- Mire, mi señora Müller, en el coche. Jugo, un caballero así puede permitírselo y ni siquiera pensará cómo un viaje así en un automóvil puede terminar infelizmente. Y también en Sarajevo, esto es Bosnia, Sra. Müllerowo. Debió haber sido hecho por los turcos. No tenían que llevarse esta Bosnia y Herzegovina. Sí, sí, Sra. Müller. Entonces, el Sr. Archiduque ya está en el juicio de Dios. ¿También estuvo cansado durante mucho tiempo?
+\n\n
+- El Sr. Archiduque murió de inmediato, señor. Tú mismo sabes que no hay correas con el revólver. No hace mucho, en nuestro barrio de Nuslach, uno también jugaba con un revólver y disparaba a toda la familia, e incluso a un vigilante que fue a ver quién también disparaba allí en el tercer piso.
+    \n\n
+    </string>
+
+</resources>

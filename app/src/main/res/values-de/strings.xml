@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">mcLowicz International</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Seetings -->
+    <string name="fragment_settings_title">die Einstellungen</string>
+    <string name="lang_pl">Polnische</string>
+    <string name="lang_en">Englisch</string>
+    <string name="lang_es">Spanisch</string>
+    <string name="lang_de">Deutsche</string>
+    <string name="lang_cz">Tschechisch</string>
+
+    <string name="language_array_title">Sprache</string>
+
+    <string-array name="language_array">
+        <item>@string/lang_pl</item>
+        <item>@string/lang_en</item>
+        <item>@string/lang_es</item>
+        <item>@string/lang_de</item>
+        <item>@string/lang_cz</item>
+    </string-array>
+
+    <string name="theme_day">Tag</string>
+    <string name="theme_night">Nacht</string>
+    <string name="theme_array_title">Thema</string>
+    <string-array name="theme_array">
+        <item>@string/theme_day</item>
+        <item>@string/theme_night</item>
+    </string-array>
+
+    <!-- Preference Titles -->
+    <string name="ui">UI</string>
+    <string name="theme_mode">Dark Mode</string>
+    <string name="theme_mode_def_value">MODE_NIGHT_FOLLOW_SYSTEM</string>
+
+    <!-- Dark Mode ListPreference -->
+    <string-array name="theme_mode_entries">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string-array name="theme_mode_values">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string name="content_szwejk">
+        - Und das ist es, was sie Ferdinand getötet haben - sagte der Begleiter von Herrn Szwejk, der, nachdem er vor Jahren seinen Militärdienst verlassen hatte, als er schließlich von der militärmedizinischen Kommission als Idiot angesehen wurde, grimmig vom Handel mit Hunden lebte , nicht reinrassige Mischlinge, deren Stammbäume er gefälscht hat.
+\n\n
+Zusätzlich zu dieser Beschäftigung war er von Rheuma betroffen und rieb sich nur die Knie mit Opo-Deldok.
+\n\n
+- Welcher Ferdinand, Frau Müllerowo? Fragte Švejk und massierte sich immer noch die Knie. - Ich kenne zwei Ferdinands: Einer ist ein Diener im teuren Prusza und hat aus Versehen dort einmal etwas Schmiermittel für das Haarwachstum getrunken, und dann kenne ich auch Ferdinand Kokoszka, was die Hundehütte sammelt. Beides ist nicht zu bereuen.
+\n\n
+- Aber, Herr, Erzherzog Ferdinand, der aus Konopiště, der dicke, fromme.
+\n\n
+- Jesus Maria! Rief Švejk aus. - Das ist gut! Und wo ist es dem Erzprinzen passiert?
+\n\n
+- Tropfen in Sarajevo, Sir, mit einem Revolver, wissen Sie. Er fuhr mit seiner Erzherzogin in einem Auto dorthin.
+\n\n
+- Schau, meine Dame Müller, im Auto. Saft, so ein Gentleman kann es sich leisten und wird nicht einmal darüber nachdenken, wie eine solche Fahrt in einem Auto unglücklich enden kann. Und auch in Sarajevo ist dies Bosnien, Frau Müllerowo. Es muss von den Türken getan worden sein. Sie mussten dieses Bosnien und Herzegowina nicht wegnehmen. Ja, ja, Frau Müller. Herr Erzherzog ist also bereits nach Gottes Urteil. War er auch lange müde?
+\n\n
+- Herr Erzherzog war sofort tot, Sir. Sie wissen selbst, dass der Revolver keine Gurte hat. Vor nicht allzu langer Zeit spielte man in unserer Nachbarschaft in Nuslach auch mit einem Revolver und schoss auf die ganze Familie und sogar auf einen Wachmann, der nachschaute, wer auch dort im dritten Stock schoss.
+    \n\n
+    </string>
+
+</resources>

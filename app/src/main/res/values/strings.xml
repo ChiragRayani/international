@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">mcLowicz International</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Seetings -->
+    <string name="fragment_settings_title">Settings</string>
+    <string name="lang_pl">Polish</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Spanish</string>
+    <string name="lang_de">German</string>
+    <string name="lang_cz">Czech</string>
+    <string name="language_array_title">Language</string>
+    <string-array name="language_array">
+        <item>@string/lang_pl</item>
+        <item>@string/lang_en</item>
+        <item>@string/lang_es</item>
+        <item>@string/lang_de</item>
+        <item>@string/lang_cz</item>
+    </string-array>
+
+    <string name="theme_day">Day</string>
+    <string name="theme_night">Night</string>
+    <string name="theme_array_title">Theme</string>
+    <string-array name="theme_array">
+        <item>@string/theme_day</item>
+        <item>@string/theme_night</item>
+    </string-array>
+
+    <!-- Preference Titles -->
+    <string name="ui">UI</string>
+    <string name="theme_mode">Dark Mode</string>
+    <string name="theme_mode_def_value">MODE_NIGHT_FOLLOW_SYSTEM</string>
+
+    <!-- Dark Mode ListPreference -->
+    <string-array name="theme_mode_entries">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string-array name="theme_mode_values">
+        <item>Day mode</item>
+        <item>Dark mode</item>
+    </string-array>
+
+    <string name="content_szwejk">
+- And this is what they killed Ferdinand - said the attendant to Mr. Szwejk, who, having left his service in the army years ago, when he was finally considered an idiot by the military medical commission, made a living from trading dogs, grim, non-thoroughbred mongrels whose pedigrees he forged.
+   \n\n
+In addition to this occupation, he was affected by rheumatism and was just rubbing his knees with an opo-deldok.
+   \n\n
+- Which Ferdinand, Mrs. Müllerowo? Švejk asked, still massaging his knees. - I know two Ferdinands: one is a servant at the expensive Prusza and, by mistake, he once drank some lubrication there for hair growth, and then I also know Ferdinand Kokoszka, what the doghouse collects. Both are not to be regretted.
+   \n\n
+- But, sir, Archduke Ferdinand, the one from Konopiště, the fat, pious one.
+   \n\n
+ - Jesus Maria! Švejk exclaimed. - That is good! And where did this happen to the arch-prince?
+   \n\n
+— Drops in Sarajevo, sir, with a revolver, you know. He was driving there with his Archduchess in an automobile.
+   \n\n
+ - Look, my lady Müller, in the car. Juice, such a man can afford it and will not even think how such a drive in an automobile may end unhappily. And also in Sarajevo, this is Bosnia, Mrs. Müllerowo. It must have been done by the Turks. They did not need to take this Bosnia and Herzegovina. Yes, yes, Mrs. Müller. So the archduke is already at God is judgment. Was he tired too long?
+   \n\n
+ - Mr. Archduke was immediately dead, sir. You know yourself that there are no straps with the revolver. Recently, in our district in Nuslach, one was also playing with a revolver and shot the whole family, and even the watchman who went to see who was shooting there on the third floor.
+   \n\n
+    </string>
+
+</resources>
