@@ -44,22 +44,35 @@
     </string-array>
 
     <string name="content">
-- And this is what they killed Ferdinand - said the attendant to Mr. Szwejk, who, having left his service in the army years ago, when he was finally considered an idiot by the military medical commission, made a living from trading dogs, grim, non-thoroughbred mongrels whose pedigrees he forged.
-   \n\n
-In addition to this occupation, he was affected by rheumatism and was just rubbing his knees with an opo-deldok.
-   \n\n
-- Which Ferdinand, Mrs. Müllerowo? Švejk asked, still massaging his knees. - I know two Ferdinands: one is a servant at the expensive Prusza and, by mistake, he once drank some lubrication there for hair growth, and then I also know Ferdinand Kokoszka, what the doghouse collects. Both are not to be regretted.
-   \n\n
-- But, sir, Archduke Ferdinand, the one from Konopiště, the fat, pious one.
-   \n\n
- - Jesus Maria! Švejk exclaimed. - That is good! And where did this happen to the arch-prince?
-   \n\n
-— Drops in Sarajevo, sir, with a revolver, you know. He was driving there with his Archduchess in an automobile.
-   \n\n
- - Look, my lady Müller, in the car. Juice, such a man can afford it and will not even think how such a drive in an automobile may end unhappily. And also in Sarajevo, this is Bosnia, Mrs. Müllerowo. It must have been done by the Turks. They did not need to take this Bosnia and Herzegovina. Yes, yes, Mrs. Müller. So the archduke is already at God is judgment. Was he tired too long?
-   \n\n
- - Mr. Archduke was immediately dead, sir. You know yourself that there are no straps with the revolver. Recently, in our district in Nuslach, one was also playing with a revolver and shot the whole family, and even the watchman who went to see who was shooting there on the third floor.
-   \n\n
+Android — Change The App Language Programmatically with Kotlin
+\n\n
+Android environment by default initiate application language upon the systems settings.
+\n\n
+Would you like to give your users possibility of choosing between more than one language from the internal application settings perspective ?
+\n\n
+If the answer is, yes.
+\n\n
+It looks like you landed in the right spot where you will deepen the secrets of how to handle the following requirement:
+\n\n
+- User is able to change the language from the application settings
+\n\n
+In deeper consideration, locale of the android application need to override locale that are set under the user device operation system.
+\n\n
+With the following recipe, user will be able to switch between different languages from the settings screen in the scope of whole application without touching the system device settings.
+\n\n
+Choice will be saved locally with help of shared preferences. Logic will check the chosen language and upon the user preferences it will update the application locale.
+\n\n
+First of all, new resource files need to be created for the further application languages.
+\n\n
+Right-click on the ‘res’ directory, choose “New” then click on “Android resource file”.
+\n\n
+It will prompt the window, where under the “File name:” type “strings.xml”. Under “Available qualifiers:” choose “Locale” and click on the right arrow icon.
+\n\n
+Select the required language and the new “strings.xml” file will be generated.
+\n\n
+Basically, each language will have separate “strings.xml” file, which will be determined by the root directory name under the file structure.
+\n\n
+After adding additional language resources we need to build switching functionality.
     </string>
     <string name="settings_screen_button">Settings screen button</string>
 

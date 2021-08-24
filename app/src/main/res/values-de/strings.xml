@@ -46,22 +46,35 @@
     </string-array>
 
     <string name="content">
-        - Und das ist es, was sie Ferdinand getötet haben - sagte der Begleiter von Herrn Szwejk, der, nachdem er vor Jahren seinen Militärdienst verlassen hatte, als er schließlich von der militärmedizinischen Kommission als Idiot angesehen wurde, grimmig vom Handel mit Hunden lebte , nicht reinrassige Mischlinge, deren Stammbäume er gefälscht hat.
+Android – Ändern Sie die App-Sprache programmgesteuert mit Kotlin
 \n\n
-Zusätzlich zu dieser Beschäftigung war er von Rheuma betroffen und rieb sich nur die Knie mit Opo-Deldok.
+Android-Umgebung initiiert standardmäßig die Anwendungssprache bei den Systemeinstellungen.
 \n\n
-- Welcher Ferdinand, Frau Müllerowo? Fragte Švejk und massierte sich immer noch die Knie. - Ich kenne zwei Ferdinands: Einer ist ein Diener im teuren Prusza und hat aus Versehen dort einmal etwas Schmiermittel für das Haarwachstum getrunken, und dann kenne ich auch Ferdinand Kokoszka, was die Hundehütte sammelt. Beides ist nicht zu bereuen.
+Möchten Sie Ihren Benutzern die Möglichkeit geben, aus Sicht der internen Anwendungseinstellungen zwischen mehr als einer Sprache zu wählen?
 \n\n
-- Aber, Herr, Erzherzog Ferdinand, der aus Konopiště, der dicke, fromme.
+Wenn die Antwort lautet, ja.
 \n\n
-- Jesus Maria! Rief Švejk aus. - Das ist gut! Und wo ist es dem Erzprinzen passiert?
+Es sieht so aus, als ob Sie an der richtigen Stelle gelandet sind, an der Sie die Geheimnisse des Umgangs mit der folgenden Anforderung vertiefen werden:
 \n\n
-- Tropfen in Sarajevo, Sir, mit einem Revolver, wissen Sie. Er fuhr mit seiner Erzherzogin in einem Auto dorthin.
+- Der Benutzer kann die Sprache in den Anwendungseinstellungen ändern
 \n\n
-- Schau, meine Dame Müller, im Auto. Saft, so ein Gentleman kann es sich leisten und wird nicht einmal darüber nachdenken, wie eine solche Fahrt in einem Auto unglücklich enden kann. Und auch in Sarajevo ist dies Bosnien, Frau Müllerowo. Es muss von den Türken getan worden sein. Sie mussten dieses Bosnien und Herzegowina nicht wegnehmen. Ja, ja, Frau Müller. Herr Erzherzog ist also bereits nach Gottes Urteil. War er auch lange müde?
+Bei genauerer Betrachtung muss das Gebietsschema der Android-Anwendung das Gebietsschema überschreiben, das unter dem Betriebssystem des Benutzergeräts festgelegt ist.
 \n\n
-- Herr Erzherzog war sofort tot, Sir. Sie wissen selbst, dass der Revolver keine Gurte hat. Vor nicht allzu langer Zeit spielte man in unserer Nachbarschaft in Nuslach auch mit einem Revolver und schoss auf die ganze Familie und sogar auf einen Wachmann, der nachschaute, wer auch dort im dritten Stock schoss.
-    \n\n
+Mit dem folgenden Rezept kann der Benutzer vom Einstellungsbildschirm im Rahmen der gesamten Anwendung zwischen verschiedenen Sprachen wechseln, ohne die Systemgeräteeinstellungen zu berühren.
+\n\n
+Die Auswahl wird mit Hilfe der gemeinsamen Einstellungen lokal gespeichert. Logic überprüft die gewählte Sprache und aktualisiert das Anwendungsgebietsschema entsprechend den Benutzereinstellungen.
+\n\n
+Zunächst müssen für die weiteren Anwendungssprachen neue Ressourcendateien erstellt werden.
+\n\n
+Klicken Sie mit der rechten Maustaste auf das Verzeichnis "res", wählen Sie "Neu" und klicken Sie dann auf "Android-Ressourcendatei".
+\n\n
+Es öffnet das Fenster, in dem unter „Dateiname:“ „strings.xml“ eingegeben wird. Wählen Sie unter "Verfügbare Qualifikationsmerkmale:" "Gebietsschema" und klicken Sie auf das Symbol mit dem rechten Pfeil.
+\n\n
+Wählen Sie die gewünschte Sprache und die neue Datei „strings.xml“ wird generiert.
+\n\n
+Grundsätzlich hat jede Sprache eine separate Datei „strings.xml“, die durch den Stammverzeichnisnamen unter der Dateistruktur bestimmt wird.
+\n\n
+Nachdem wir zusätzliche Sprachressourcen hinzugefügt haben, müssen wir die Switching-Funktionalität erstellen.
     </string>
     <string name="settings_screen_button">Settings screen button</string>
 

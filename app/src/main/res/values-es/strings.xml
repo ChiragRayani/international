@@ -46,22 +46,35 @@
     </string-array>
 
     <string name="content">
-        - Y esto es lo que mataron a Ferdinand - dijo el asistente al señor Szwejk, quien, habiendo dejado su servicio en el ejército hace años, cuando finalmente fue considerado un idiota por la comisión médica militar, se ganaba la vida comerciando perros, lúgubre , mestizos no pura sangre cuyos pedigrí forjó.
+Android: cambie el idioma de la aplicación mediante programación con Kotlin
 \n\n
-Además de esta ocupación, estaba afectado por el reumatismo y solo se frotaba las rodillas con opo-deldok.
+El entorno Android de forma predeterminada inicia el idioma de la aplicación en la configuración del sistema.
 \n\n
-- ¿Qué Ferdinand, Sra. Müllerowo? Švejk preguntó, todavía masajeando sus rodillas. - Conozco a dos Ferdinands: uno es un sirviente en el caro Prusza y, por error, una vez bebió un poco de lubricante allí para el crecimiento del cabello, y luego también conozco a Ferdinand Kokoszka, lo que colecciona la caseta del perro. No hay que lamentar ambos.
+¿Le gustaría brindar a sus usuarios la posibilidad de elegir entre más de un idioma desde la perspectiva de la configuración interna de la aplicación?
 \n\n
-- Pero, señor, el archiduque Fernando, el de Konopiště, el gordo y piadoso.
+Si la respuesta es sí.
 \n\n
-- ¡Jesús María! Švejk exclamó. - ¡Eso es bueno! ¿Y dónde le pasó al archipríncipe?
+Parece que aterrizó en el lugar correcto donde profundizará los secretos de cómo manejar el siguiente requisito:
 \n\n
-—Gotas en Sarajevo, señor, con un revólver, ya sabe. Iba conduciendo allí con su Archiduquesa en un automóvil.
+- El usuario puede cambiar el idioma desde la configuración de la aplicación
 \n\n
-- Mire, mi señora Müller, en el coche. Jugo, un caballero así puede permitírselo y ni siquiera pensará cómo un viaje así en un automóvil puede terminar infelizmente. Y también en Sarajevo, esto es Bosnia, Sra. Müllerowo. Debió haber sido hecho por los turcos. No tenían que llevarse esta Bosnia y Herzegovina. Sí, sí, Sra. Müller. Entonces, el Sr. Archiduque ya está en el juicio de Dios. ¿También estuvo cansado durante mucho tiempo?
+En una consideración más profunda, la configuración regional de la aplicación de Android debe anular la configuración regional establecida en el sistema operativo del dispositivo del usuario.
 \n\n
-- El Sr. Archiduque murió de inmediato, señor. Tú mismo sabes que no hay correas con el revólver. No hace mucho, en nuestro barrio de Nuslach, uno también jugaba con un revólver y disparaba a toda la familia, e incluso a un vigilante que fue a ver quién también disparaba allí en el tercer piso.
-    \n\n
+Con la siguiente receta, el usuario podrá cambiar entre diferentes idiomas desde la pantalla de configuración en el alcance de toda la aplicación sin tocar la configuración del dispositivo del sistema.
+\n\n
+La elección se guardará localmente con la ayuda de preferencias compartidas. Logic comprobará el idioma elegido y, según las preferencias del usuario, actualizará la configuración regional de la aplicación.
+\n\n
+En primer lugar, es necesario crear nuevos archivos de recursos para los demás idiomas de la aplicación.
+\n\n
+Haga clic con el botón derecho en el directorio "res", elija "Nuevo" y luego haga clic en "Archivo de recursos de Android".
+\n\n
+Aparecerá la ventana, donde debajo del "Nombre de archivo:" escriba "strings.xml". En "Calificadores disponibles:" elija "Configuración regional" y haga clic en el icono de flecha hacia la derecha.
+\n\n
+Seleccione el idioma requerido y se generará el nuevo archivo "strings.xml".
+\n\n
+Básicamente, cada idioma tendrá un archivo "strings.xml" separado, que estará determinado por el nombre del directorio raíz en la estructura del archivo.
+\n\n
+Después de agregar recursos de idioma adicionales, necesitamos crear una funcionalidad de conmutación.
     </string>
     <string name="settings_screen_button">Settings screen button</string>
 

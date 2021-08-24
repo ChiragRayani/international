@@ -48,22 +48,35 @@
     </string-array>
 
     <string name="content">
-        - A to nam zabili Ferdynanda — rzekła posługaczka do pana Szwejka, który opuściwszy przed laty służbę w wojsku, gdy ostatecznie przez lekarską komisję wojskową uznany został za idiotę, utrzymywał się z handlu psami, pokracznymi, nierasowymi kundlami, których rodowody fałszował.
-        \n\n
-Prócz tego zajęcia dotknięty był reumatyzmem i właśnie nacierał sobie kolana opo-deldokiem.
+Android — programowa zmiana języka aplikacji dzięki Kotlin
 \n\n
-— Którego Ferdynanda, pani Müllerowo? — zapytał Szwejk nie przestając masować kolan. — Ja znam dwóch Ferdynandów: jeden jest posługaczem u drogisty Pruszy i przez pomyłkę wypił tam razu pewnego jakieś smarowanie na porost włosów, a potem znam jeszcze Ferdynanda Kokoszkę, tego, co zbiera psiegówienka. Obu niema co żałować.
+Środowisko Android domyślnie inicjuje język aplikacji w ustawieniach systemu.
 \n\n
-— Ależ, proszę pana, pana arcyksięcia Ferdynanda, tego z Konopisztu, tego tłustego, pobożnego.
+Czy chcesz dać swoim użytkownikom możliwość wyboru pomiędzy więcej niż jednym językiem z perspektywy ustawień wewnętrznych aplikacji?
 \n\n
-— Jezus Maria! — zawołał Szwejk. — A to dobre! A gdzie też się to się panu arcy-księciu przytrafiło?
+Jeśli odpowiedź brzmi, tak.
 \n\n
-—Kropnęligo w Sarajewie, proszę pana, z rewolweru, wie pan. Jechał tam ze swoją arcyksiężną w automobilu.
+Wygląda na to, że wylądowałeś we właściwym miejscu, gdzie zgłębisz tajniki, jak poradzić sobie z następującym wymaganiem:
 \n\n
-— Patrzcie państwo, moja pani Müllerowo, w automobilu. Juścić, taki pan może sobie na to pozwolić i nawet nie pomyśli, jak taka jazda automobilem może się skończyć nieszczęśliwie. I jeszcze do tego w Sarajewie, to jest w Bośni, pani Müllerowo. To napewno zrobili Turcy. Nie trza im było tej Bośni i Hercegowiny zabierać. Tak to, tak, pani Müllerowo. Więc pan arcyksiążę już na sądzie boskim. Długo też się męczył?
+- Użytkownik może zmienić język w ustawieniach aplikacji
 \n\n
-— Pan arcyksiążę był od razu trup, proszę pana. Sam pan wie, że z rewolwerem nie ma szpasów. Niedawno temu w naszej dzielnicy w Nuslach też się jeden bawił rewolwerem i powystrzelał całą rodzinę, a nawet stróża, który poszedł zobaczyć, kto też tam strzela na trzecim piętrze.
-        \n\n
+Po głębszym rozważeniu ustawienia regionalne aplikacji dla systemu Android muszą zastąpić ustawienia regionalne ustawione w systemie operacyjnym urządzenia użytkownika.
+\n\n
+Dzięki poniższemu przepisowi użytkownik będzie mógł przełączać się między różnymi językami z ekranu ustawień w zakresie całej aplikacji bez dotykania ustawień urządzenia systemowego.
+\n\n
+Wybór zostanie zapisany lokalnie za pomocą wspólnych preferencji. Logic sprawdzi wybrany język i zgodnie z preferencjami użytkownika zaktualizuje ustawienia regionalne aplikacji.
+\n\n
+Przede wszystkim należy stworzyć nowe pliki zasobów dla kolejnych języków aplikacji.
+\n\n
+Kliknij prawym przyciskiem myszy katalog „res”, wybierz „Nowy”, a następnie kliknij „Plik zasobów Androida”.
+\n\n
+Wyświetli się okno, w którym pod „Nazwa pliku:” wpisz „strings.xml”. W sekcji „Dostępne kwalifikatory:” wybierz „Lokale” i kliknij ikonę prawej strzałki.
+\n\n
+Wybierz żądany język, a zostanie wygenerowany nowy plik „strings.xml”.
+\n\n
+Zasadniczo każdy język będzie miał osobny plik „strings.xml”, który zostanie określony przez nazwę katalogu głównego w strukturze pliku.
+\n\n
+Po dodaniu dodatkowych zasobów językowych musimy zbudować funkcjonalność przełączania.
     </string>
     <string name="settings_screen_button">Settings screen button</string>
 
