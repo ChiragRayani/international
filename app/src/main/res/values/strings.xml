@@ -43,7 +43,7 @@
         <item>Dark mode</item>
     </string-array>
 
-    <string name="content_szwejk">
+    <string name="content">
 - And this is what they killed Ferdinand - said the attendant to Mr. Szwejk, who, having left his service in the army years ago, when he was finally considered an idiot by the military medical commission, made a living from trading dogs, grim, non-thoroughbred mongrels whose pedigrees he forged.
    \n\n
 In addition to this occupation, he was affected by rheumatism and was just rubbing his knees with an opo-deldok.
@@ -61,5 +61,6 @@ In addition to this occupation, he was affected by rheumatism and was just rubbi
  - Mr. Archduke was immediately dead, sir. You know yourself that there are no straps with the revolver. Recently, in our district in Nuslach, one was also playing with a revolver and shot the whole family, and even the watchman who went to see who was shooting there on the third floor.
    \n\n
     </string>
+    <string name="settings_screen_button">Settings screen button</string>
 
 </resources>

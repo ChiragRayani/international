@@ -45,7 +45,7 @@
         <item>Dark mode</item>
     </string-array>
 
-    <string name="content_szwejk">
+    <string name="content">
         - A to je to, co zabili Ferdinanda - řekl obsluha panu Szwejkovi, který poté, co před lety opustil svoji službu v armádě, když ho vojenská lékařská komise konečně považoval za idiota, živil se obchodováním se psy, ponurý , plnokrevní kříženci, jejichž rodokmeny koval.
 \n\n
 Kromě této okupace byl postižen revmatismem a jen si třel kolena opo-deldokem.
@@ -63,5 +63,6 @@ Kromě této okupace byl postižen revmatismem a jen si třel kolena opo-deldoke
 - Pan arcivévoda byl okamžitě mrtvý, pane. Sami víte, že u revolveru nejsou žádné pásky. Nedávno se v našem sousedství v Nuslachu hrálo s revolverem a zastřelil celou rodinu a dokonce i strážného, ​​který se šel podívat, kdo tam také střílel ve třetím patře.
     \n\n
     </string>
+    <string name="settings_screen_button">Settings screen button</string>
 
 </resources>

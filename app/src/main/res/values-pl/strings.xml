@@ -47,7 +47,7 @@
         <item>Night mode</item>
     </string-array>
 
-    <string name="content_szwejk">
+    <string name="content">
         - A to nam zabili Ferdynanda — rzekła posługaczka do pana Szwejka, który opuściwszy przed laty służbę w wojsku, gdy ostatecznie przez lekarską komisję wojskową uznany został za idiotę, utrzymywał się z handlu psami, pokracznymi, nierasowymi kundlami, których rodowody fałszował.
         \n\n
 Prócz tego zajęcia dotknięty był reumatyzmem i właśnie nacierał sobie kolana opo-deldokiem.
@@ -65,5 +65,6 @@ Prócz tego zajęcia dotknięty był reumatyzmem i właśnie nacierał sobie kol
 — Pan arcyksiążę był od razu trup, proszę pana. Sam pan wie, że z rewolwerem nie ma szpasów. Niedawno temu w naszej dzielnicy w Nuslach też się jeden bawił rewolwerem i powystrzelał całą rodzinę, a nawet stróża, który poszedł zobaczyć, kto też tam strzela na trzecim piętrze.
         \n\n
     </string>
+    <string name="settings_screen_button">Settings screen button</string>
 
 </resources>

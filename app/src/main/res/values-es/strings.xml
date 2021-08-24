@@ -45,7 +45,7 @@
         <item>Dark mode</item>
     </string-array>
 
-    <string name="content_szwejk">
+    <string name="content">
         - Y esto es lo que mataron a Ferdinand - dijo el asistente al señor Szwejk, quien, habiendo dejado su servicio en el ejército hace años, cuando finalmente fue considerado un idiota por la comisión médica militar, se ganaba la vida comerciando perros, lúgubre , mestizos no pura sangre cuyos pedigrí forjó.
 \n\n
 Además de esta ocupación, estaba afectado por el reumatismo y solo se frotaba las rodillas con opo-deldok.
@@ -63,5 +63,6 @@ Además de esta ocupación, estaba afectado por el reumatismo y solo se frotaba 
 - El Sr. Archiduque murió de inmediato, señor. Tú mismo sabes que no hay correas con el revólver. No hace mucho, en nuestro barrio de Nuslach, uno también jugaba con un revólver y disparaba a toda la familia, e incluso a un vigilante que fue a ver quién también disparaba allí en el tercer piso.
     \n\n
     </string>
+    <string name="settings_screen_button">Settings screen button</string>
 
 </resources>

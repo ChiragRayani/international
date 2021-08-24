@@ -45,7 +45,7 @@
         <item>Dark mode</item>
     </string-array>
 
-    <string name="content_szwejk">
+    <string name="content">
         - Und das ist es, was sie Ferdinand getötet haben - sagte der Begleiter von Herrn Szwejk, der, nachdem er vor Jahren seinen Militärdienst verlassen hatte, als er schließlich von der militärmedizinischen Kommission als Idiot angesehen wurde, grimmig vom Handel mit Hunden lebte , nicht reinrassige Mischlinge, deren Stammbäume er gefälscht hat.
 \n\n
 Zusätzlich zu dieser Beschäftigung war er von Rheuma betroffen und rieb sich nur die Knie mit Opo-Deldok.
@@ -63,5 +63,6 @@ Zusätzlich zu dieser Beschäftigung war er von Rheuma betroffen und rieb sich n
 - Herr Erzherzog war sofort tot, Sir. Sie wissen selbst, dass der Revolver keine Gurte hat. Vor nicht allzu langer Zeit spielte man in unserer Nachbarschaft in Nuslach auch mit einem Revolver und schoss auf die ganze Familie und sogar auf einen Wachmann, der nachschaute, wer auch dort im dritten Stock schoss.
     \n\n
     </string>
+    <string name="settings_screen_button">Settings screen button</string>
 
 </resources>

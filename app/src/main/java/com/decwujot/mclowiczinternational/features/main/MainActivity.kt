@@ -1,8 +1,6 @@
 package com.decwujot.mclowiczinternational.features.main
 
 import android.os.Bundle
-import androidx.activity.viewModels
-import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.*
 import com.decwujot.mclowiczinternational.R
@@ -13,9 +11,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class MainActivity : BaseActivity() {
 
-    private val viewModel: MainViewModel by viewModels()
     lateinit var binding: ActivityMainBinding
-    lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

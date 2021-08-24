@@ -7,6 +7,8 @@ import com.decwujot.mclowiczinternational.utility.LocaleService
 open class BaseActivity : AppCompatActivity() {
 
     override fun attachBaseContext(newBase: Context) {
-        super.attachBaseContext(LocaleService.updateBaseContextLocale(newBase))
+        super.attachBaseContext(
+            LocaleService.updateBaseContextLocale(newBase)
+        )
     }
 }
